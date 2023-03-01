@@ -4,7 +4,7 @@ class Tigger {
     private static $instancia = null;
     private static $counter = 0;
 
-    public function __construct() {
+    private function __construct() {
             echo "Building character..." . PHP_EOL;
     }
 
